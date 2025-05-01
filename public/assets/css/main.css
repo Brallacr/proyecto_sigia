@@ -1,0 +1,8 @@
+/* 
+Este documento contiene todos los estilos que se repiten sus componentes, como botones, Tablas, menus, entre otros.
+*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}

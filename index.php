@@ -1,12 +1,11 @@
 <?php 
 
-//Conexión = LO QUE DEBE DE HABER ACA ES UN CONTROLADOR.
-include_once 'app/config/conn.php';
+/**
+ * mostramos enrutador y este debe de redireccionar a login.
+ * 
+ * 
+ */
 
-//Crear un objeto.
-$conn = new Conection();
-
-$conn->getConnect();
 
 //TODO: 
 /**
