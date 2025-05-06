@@ -7,7 +7,7 @@ class RenderView{
 
     //Función para devolver la vista.
     public static function renderView(String $file){
-        $path = __DIR__ . "/../modules/prestamos/views/$file";
+        $path = __DIR__ . "/../modules/solicitudPrestamos/views/$file";
 
         if (!$file) {
             return;

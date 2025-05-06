@@ -12,8 +12,7 @@ class solicitudController{
     public static function prestamos(){
 
         $render = new RenderView();
-
-        $render::renderView('reservasViews.php');
+        $render::renderView('solicitudPrestamosView.php');
     }
 }
 

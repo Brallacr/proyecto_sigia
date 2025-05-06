@@ -1,7 +1,6 @@
 <?php 
 
-include_once 'modules/prestamos/controller/solicitudPrestamoController.php';
-
+include_once 'modules/solicitudPrestamos/controller/solicitudPrestamoController.php';
 
 $sltPrestamos = new solicitudController();
 
@@ -13,6 +12,7 @@ $sltPrestamos = new solicitudController();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dashboard</title>
+    <link rel="stylesheet" href="../public/assets/css/prestamos/prestamos.css">
 </head>
 <body>
 
