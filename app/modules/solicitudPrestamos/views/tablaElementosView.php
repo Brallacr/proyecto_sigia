@@ -2,16 +2,18 @@
 <table id="tableElements">
     <thead>
         <tr>
-            <th>Elemento 1</th>
-            <th>Elemento 2</th>
-            <th>Elemento 3</th>
+            <th>Código</th>
+            <th>Nombre Elemento</th>
+            <th>Cantidad</th>
+            <th>Selección</th>
         </tr>
     <tbody>
         <!-- cuerpo renderizado con javascript. -->
         <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
+            <td>327482347</td>
+            <td>Cámara HXR-NX800</td>
+            <td>1</td>
+            <td><input type="checkbox" name="" id=""></td>
         </tr>
         
     </tbody>

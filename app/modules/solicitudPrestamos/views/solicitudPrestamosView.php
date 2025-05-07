@@ -1,4 +1,4 @@
-<h1 id="menuTitle">Registrar solicitud</h1>
+<h1 id="menuTitle"></h1>
 
 <form action="" method="post" id="formSolicitudPrestamo">
     <div class="inputForm cedula">
