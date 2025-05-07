@@ -3,7 +3,11 @@ const title = document.getElementById('menuTitle');
 title.innerText = 'Registrar solicitud';
 
 const inputElement = document.querySelectorAll('.inputForm input, .inputForm select');
+const table = document.querySelector('#tableElements');
+console.log(table);
 
+table.classList.add('table');
+table.setAttribute('scope','row');
 
 inputElement.forEach(element =>{
 
@@ -20,7 +24,8 @@ inputElement.forEach(element =>{
         element.classList.add('form-control');
     }
 
-    //TODO: implementar el tagname para la tabla y darle stilos a la tabla.
+   
+
     
 });
 

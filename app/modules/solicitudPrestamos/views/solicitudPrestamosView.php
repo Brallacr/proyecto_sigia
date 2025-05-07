@@ -1,4 +1,5 @@
-<h1 id="menuTitle"></h1>
+
+<span id="menuTitle"></span>
 
 <form action="" method="post" id="formSolicitudPrestamo">
     <div class="inputForm cedula">
