@@ -16,11 +16,10 @@ class RenderView{
         if (file_exists($path)) {
             include_once $path;
         }
-
     }
 
-    //Función para mapear los documentos.
-    public static function mapFiles(){
+    //Función para mapear los documentos, esto lo voy a usar para validar si el documento enviado es igual al que existe.
+    private static function mapFiles(){
         $relativePath = __DIR__ . '/../modules/prestamos/views/';
         $nameFiles = [];
 
@@ -33,12 +32,8 @@ class RenderView{
             $nameFiles[] = $prestamosFiles;
             //var_dump($nameFiles);
         }
-
     }
-
-    
 }
-
 
 //RenderView::mapFiles();
 

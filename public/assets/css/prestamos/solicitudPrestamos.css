@@ -17,14 +17,9 @@
 @media (min-width: 1200px) {
 
 
-    body{
-        background-color: rgb(202, 202, 196);
-
-    }
-
     #menuTitle{
         font-family: monospace;
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: center;
     }
     
@@ -35,30 +30,37 @@
         justify-content: center;
     
     }
-    
-    #formSolicitudPrestamo {
+
+    #solicPrestamos{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas:
-            "cedula nombre"
-            "apellido telefono"
-            "email areaDestino"
-            "fechaReserva fechaReserva"
-            "horaInicioFin horaInicioFin"
-            "fechaDevolucion fechaDevolucion"
-            "inputObservaciones inputObservaciones"
-            "tableView tableView"
-            "inputBtn inputBtn";
+        grid-template-columns: 1fr;
+        
         gap: 0.5rem;
+        width: 100%;
         padding: 1rem;
         border: 1px solid black;
         border-radius: 2rem;
     }
-    
+
+    #formSolicitudPrestamo{
+        height: 70vh;
+        display: grid;
+        grid-template-areas:
+            "cedula nombre apellido"
+            "telefono email areaDestino"
+            "fechaReserva horaInicioFin horaInicioFin"
+            "fechaDevolucion fechaDevolucion fechaDevolucion"
+            "inputObservaciones inputObservaciones inputObservaciones"
+            "tableView tableView tableView "
+            "inputBtn inputBtn inputBtn";
+
+    }
+
     .inputForm {
         display: flex;
         flex-direction: column;
         width: 100% !important;
+        padding-left: 0.5rem;
     }
     
     .inputBtn {
@@ -101,13 +103,16 @@
     
     .horaInicioFin {
         grid-area: horaInicioFin;
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
     }
     
     .horaInicio,
     .horaFin {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 50%;
     }
     
     .inputObservaciones {
@@ -123,17 +128,21 @@
     
     .tableView {
         grid-area: tableView;
-        height: auto;
+        height: 30vh;
     }
     
     #tableElements {
         width: 100%;
     }
     
-    .container {
-        display: grid;
-        margin: 0 auto;
-        width: 800px;
+
+    .filterElements{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        border: 1px solid black;
+        justify-content: space-between;
+
     }
     
 }

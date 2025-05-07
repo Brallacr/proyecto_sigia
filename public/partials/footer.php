@@ -1,21 +1,20 @@
-<?php 
+<?php
 
 /**
  * En el archivo footer.php sería nuestro menú que va encabezar todo
-*/
+ */
 
 ?>
 
-<footer>
-    <main id="menuMac">
-        <li>
-            <ul>A</ul>
-            <ul>B</ul>
-            <ul>C</ul>
-            <ul>D</ul>
-        </li>
-    </main>
-</footer>
+
+<main id="mainMenu">
+    <li>
+        <ul>A</ul>
+        <ul>B</ul>
+        <ul>C</ul>
+        <ul>D</ul>
+    </li>
+</main>
 
 
 <script src="../public/assets/libraries/jquery/jquery-3.7.1.min.js"></script>

@@ -1,5 +1,6 @@
-
-<span id="menuTitle"></span>
+<div id="solicPrestamos">
+    
+<span id="menuTitle">Registrar solicitud</span>
 
 <form action="" method="post" id="formSolicitudPrestamo">
     <div class="inputForm cedula">
@@ -70,6 +71,8 @@
     </div>
 
     <div class="inputBtn">
-        <button type="submit" id="btnSubmit">Reservar</button>
+        <button type="submit" id="btnSubmit"></button>
     </div>
 </form>
+
+</div>

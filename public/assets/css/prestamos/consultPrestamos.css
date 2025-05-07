@@ -1,0 +1,47 @@
+/* search:root {'search'};
+tblElementsConsult:root {'tblElementsConsult'}; */
+
+@media (min-width: 1200px) {
+
+    #containerConsult {
+        display: grid;
+        height: auto;
+        margin: 0 auto;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "inputSearch"
+          "tblElementsConsult";
+        gap: 0.5rem;
+        border: 1px solid black;
+
+    
+      }
+
+  
+
+  #inputSearch {
+    display: grid;
+    grid-area: inputSearch;
+  }
+
+  #tblElementsConsult {
+    grid-area: tblElementsConsult;
+    width: 100%;
+    background-color: red;
+  }
+
+  #search{
+    display: flex;
+    flex-direction: column;
+    #inputSearch{
+        width: 30%;
+    }
+
+    #menuTitleConsult{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+  }
+}
